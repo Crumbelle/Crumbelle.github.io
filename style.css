@@ -1,3 +1,9 @@
+
+
+
+
+body { margin: 0%;}
+
 nav ul {
         list-style-type: none;
         background-color: #B11818;
@@ -22,5 +28,14 @@ nav ul {
       }
     
       #actief {
-      	background-color: #611919;
+      	background-color: #8b1d1d;
+        color: #fff8f2;
+      }
+
+  
+      footer {
+        background-image: url("Afooter.PNG");
+        background-attachment: fixed;
+        background-size: cover;
+        
       }
