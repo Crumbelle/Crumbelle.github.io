@@ -1,12 +1,49 @@
 
 body { 
-background-image: url(A.beigeachtergrond.jpg);
+background-image: url(Abeige.jpg);
 background-attachment: fixed;
 background-size: cover;}
 
+#banner {
+width: 850px;
+height: 152px;
+display: block;
+margin: 0 auto;
+}
+
+
+
+#headerbox { background-color: #840d0d; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   height:180px;
+   justify-content: center;
+}
+
+#sinds { color: #fff8f2;
+margin-top:0%;
+display: flex;
+align-items: center;
+justify-content:center;
+position: static;
+font-size: 15px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+#sinds::before,
+#sinds::after { content:""; 
+width: 100px;
+height: 2px;
+background: #f18c1d;}
+
+
+nav {
+         border-top: 2px solid  #f18c2d;
+   }
+
 nav ul {
         list-style-type: none;
-        background-color: #B11818;
+        background-color: #840d0d;
         display: flex;
         margin: 0%;
         justify-content: center;
@@ -16,9 +53,9 @@ nav ul {
       nav ul li a {
         color: #fff8f2;
         text-decoration: none;
-        padding: 10px; 
+        padding: 15px;
         display: block;
-        font-size: 20px;
+        font-size: 15px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       }
 
@@ -28,14 +65,17 @@ nav ul {
       }
     
       #actief {
-      	background-color: #8b1d1d;
+      	background-color: #6b1616;
         color: #fff8f2;
       }
 
   
-      footer { background-color:#B11818;
+      footer { background-color: #840d0d;
         text-align: center;
+        padding-top: 0%;
     
       }
 
-      #footertekst { color: #fff8f2;}
+      #footertekst { color: #fff8f2;
+      font-size: 10px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
