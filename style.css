@@ -6,12 +6,10 @@ background-size: cover;}
 
 #banner {
 width: 850px;
-height: 145px;
+height: 138px;
 display: block;
 margin: 0 auto;
 }
-
-
 
 #headerbox { background-color: #840d0d; 
   display: flex;
@@ -27,15 +25,14 @@ display: flex;
 align-items: center;
 justify-content:center;
 position: static;
-font-size: 15px;
+font-size: 18px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
-
 #sinds::before,
+
 #sinds::after { content:""; 
 width: 100px;
 height: 2px;
 background: #f18c1d;}
-
 
 nav {
          border-top: 2px solid  #f18c2d;
@@ -48,6 +45,7 @@ nav ul {
         margin: 0%;
         justify-content: center;
         padding: 0; 
+        gap: 30px;
       }
       
       nav ul li a {
@@ -55,7 +53,7 @@ nav ul {
         text-decoration: none;
         padding: 15px;
         display: block;
-        font-size: 15px;
+        font-size: 20px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       }
 
@@ -63,43 +61,103 @@ nav ul {
       	background-color: #fff8f2;
         color: #B11818;
       }
-    
-      #actief {
+  
+#actief {
       	background-color: #6b1616;
         color: #fff8f2;
       }
 
 
-
-
-    #flex-container { display: flex;
+#flex-container1 { display: flex;
       justify-content: space-evenly;
       flex-wrap: wrap;
       } 
 
-    #flex-container img {display: flex;
+#flex-container1 img {display: flex;
     justify-content: flex-end;
     width:900px}
 
-    .voorpaginatekst {
+.voorpaginatekst {
       width: 30%;
     margin: 5%;
   }
 
-  #welkom {
-    color: #696057;
-      font-size: 25px;
+#welkom {
+      color: #696057;
+      font-size: 30px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+#crumbelle {color: #840d0d;
+      font-size: 50px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+#welkomtekst {color:#000000;
+      font-size: 20px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+.specialiteiten {text-align: center;
+      color: #840d0d;
+      background-color: #fff8f2;
+      border: 1px solid #e8e8e8;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      padding: 20px;
+      font-size: 15px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+.specialiteiten h2 {margin-bottom: 30px;
+      color:#252323;}
+
+.specialiteiten p {
+      color:#252323;
+      font-size: 18px ;}
+
+.specialiteitenblok {display: flex; 
+      justify-content: center;
+      gap:20px;}
+
+.blok { background-color: #fff8f2;
+border: 1px solid #e8e8e8;
+border-radius: 8px;
+padding:20px;
+box-shadow: 0 1px 3px rgba(0,0,0,0.05);}
+
+
+
+
+
+
+
+
+
+
+
+
+#flex-container2 { display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;}
+
+#flex-container2 img {display: flex;
+    justify-content: flex-end;
+    width:400px}
+
+    .onsassortimenttekst {width: 30%;
+    margin: 5%;
+    padding:20px;
+  }
+#onsassortiment{
+      color: #58270e;
+      font-size: 30px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+#onsassortiment2{color:#000000;
+      font-size: 20px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
 
 
-
-      footer { background-color: #840d0d;
+footer {background-color: #840d0d;
         text-align: center;
         padding-top: 0%;
     
       }
 
-      #footertekst { color: #fff8f2;
-      font-size: 10px;
+#footertekst { color: #fff8f2;
+      font-size: 18px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
