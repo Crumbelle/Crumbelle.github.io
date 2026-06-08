@@ -69,17 +69,31 @@ nav ul {
         color: #fff8f2;
       }
 
-    .voorpagina {display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    width:30%}
+
+
+
+    #flex-container { display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      } 
+
+    #flex-container img {display: flex;
+    justify-content: flex-end;
+    width:900px}
+
+    .voorpaginatekst {
+      width: 30%;
+    margin: 5%;
+  }
+
+  #welkom {
+    color: #696057;
+      font-size: 25px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
 
 
 
-
-
-  
       footer { background-color: #840d0d;
         text-align: center;
         padding-top: 0%;
