@@ -19,7 +19,7 @@ margin: 0 auto;
    justify-content: center;
 }
 
-#sinds { color: #fff8f2;
+#titel-lijn1 { color: #fff8f2;
 margin-top:0%;
 display: flex;
 align-items: center;
@@ -27,20 +27,22 @@ justify-content:center;
 position: static;
 font-size: 18px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
-#sinds::before,
+#titel-lijn1::before,
 
-#sinds::after { content:""; 
+#titel-lijn1::after { content:""; 
 width: 100px;
-height: 2px;
+height: 3px;
 background: #f18c1d;}
 
 nav {
-         border-top: 2px solid  #f18c2d;
+         border-top: 3px solid  #f18c2d;
    }
 
 nav ul {
         list-style-type: none;
         background-color: #840d0d;
+        border: 1px solid #640a0a;
+        box-shadow: 0 1px 3px #3f0606;
         display: flex;
         margin: 0%;
         justify-content: center;
@@ -73,30 +75,28 @@ nav ul {
       flex-wrap: wrap;
       } 
 
-#flex-container1 img {display: flex;
-    justify-content: flex-end;
-    width:900px}
+#flex-container1 img { width:900px}
 
 .voorpaginatekst {
-      width: 30%;
-    margin: 5%;
+      width: 40%;
   }
 
-#welkom {
-      color: #696057;
+#welkom {color: #696057;
       font-size: 30px;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin-top: 100px; }
 #crumbelle {color: #840d0d;
-      font-size: 50px;
+      font-size: 60px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 #welkomtekst {color:#000000;
       font-size: 20px;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;}
 
 .specialiteiten {text-align: center;
       color: #840d0d;
       background-color: #fff8f2;
-      border: 1px solid #e8e8e8;
+      border: 1px solid #dfdede;
       box-shadow: 0 1px 3px rgba(0,0,0,0.1);
       padding: 20px;
       font-size: 15px;
@@ -114,10 +114,10 @@ nav ul {
       gap:20px;}
 
 .blok { background-color: #fff8f2;
-border: 1px solid #e8e8e8;
+border: 1px solid #c1c1c1;
 border-radius: 8px;
 padding:20px;
-box-shadow: 0 1px 3px rgba(0,0,0,0.05);}
+box-shadow: 0 1px 3px rgba(0,0,0,0.1);}
 
 
 
@@ -131,28 +131,58 @@ box-shadow: 0 1px 3px rgba(0,0,0,0.05);}
 
 
 #flex-container2 { display: flex;
-      justify-content: space-evenly;
-      flex-wrap: wrap;}
+      justify-content: space-between;
+      align-items: center;
+      background-color: #dac4ac;
+      border: 1px solid #bea488;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px #8d7a66;}
 
-#flex-container2 img {display: flex;
-    justify-content: flex-end;
-    width:400px}
 
-    .onsassortimenttekst {width: 30%;
-    margin: 5%;
-    padding:20px;
-  }
+#flex-container2 img {
+    width:600px;
+padding-left: 100px;}
+
+.assortimenttekst {width: 40%;
+text-align: left;
+padding-right: 100px;}
+
 #onsassortiment{
-      color: #58270e;
-      font-size: 30px;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+      color: #452d21;
+      font-size: 40px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin-bottom: 15px;}
+
 #onsassortiment2{color:#000000;
       font-size: 20px;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;}
+
+
+#titel-lijn2 { color:#840d0d;
+display: flex;
+align-items: center;
+font-size: 40px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+#titel-lijn2::after { content:""; 
+width: 100%;
+height: 3px;
+background: #f18c1d;}
+
+
+
+
+
+
+
 
 
 
 footer {background-color: #840d0d;
+        border: 1px solid #640a0a;
+        border-radius: 8px;
+        box-shadow: 0 1px 3px #3f0606;
         text-align: center;
         padding-top: 0%;
     
