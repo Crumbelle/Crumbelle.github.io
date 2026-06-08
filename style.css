@@ -6,7 +6,7 @@ background-size: cover;}
 
 #banner {
 width: 850px;
-height: 152px;
+height: 145px;
 display: block;
 margin: 0 auto;
 }
@@ -68,6 +68,16 @@ nav ul {
       	background-color: #6b1616;
         color: #fff8f2;
       }
+
+    .voorpagina {display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width:30%}
+
+
+
+
+
 
   
       footer { background-color: #840d0d;
