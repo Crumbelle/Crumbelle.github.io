@@ -249,6 +249,18 @@ width: 300px;}
             
 
 
+
+
+.contact-header {background-image: url("Acontact.PNG");
+background-size: cover;
+background-position: center;
+height: 400px;
+padding-top: 10px;
+border-radius: 8px;}
+
+
+
+
 footer {background-color: #840d0d;
         border: 1px solid #640a0a;
         border-radius: 8px;
