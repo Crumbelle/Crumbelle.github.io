@@ -216,8 +216,10 @@ align-items: center;
 font-size: 40px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
+#titel-lijn2::before,
+
 #titel-lijn2::after { content:""; 
-width: 100%;
+width: 1600px;
 height: 3px;
 background: #f18c1d;}
 
@@ -257,29 +259,59 @@ border: 1px solid #c1c1c1;
 border-radius: 8px;
 padding:20px;
 box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-width: 300px;}
+width: 400px;}
 
 
 
 .weekspecial-flexcontainer{background-color: #840d0d;
-border-radius: 15px;
+padding:10px;
+margin-top:20px;}
+.weekspecial-flexcontainer h2 {text-align:center;
+        color:#fff8f2;
+       font-size: 40px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+#titel-lijn3 {
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-size: 40px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+#titel-lijn3::before,
+
+#titel-lijn3::after { content:""; 
+width: 1600px;
+height: 3px;
+background: #f18c1d;}
+
+.weekspecial {background:#fff8f2;
 padding:20px;
-margin-top:30px;}
+display:flex;
+justify-content:space-around;
+align-items:center;
+gap:40px;}
 
-.weekspecial {background-color: rgb(168, 130, 130);
-      width: 30%;
-}
+.weekspecial-tekst {width:35%}
+.weekspecial-tekst h3 {color: #301e15;  font-size: 60px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
-.weekspecial h3 {color: #fff8f2; font-size: 20px;
+.weekspecial-tekst p {color:#452d21;;font-size: 30px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;} 
+
+.weekspecial-tekst b {color:#b11818;font-size: 30px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
-.weekspecial p {color: #fff8f2; font-size: 20px;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
-.weekspecial b {color:#840d0d;font-size: 20px;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+.weeksepcial img {display: block;
+width: 300px;}
+
+.weekspecial-foto {width:45%;}
+.weekspecial-foto img {width:800px;
+display:block;
+height:auto;}
+
+
                
-.weekspecial img {padding:50px;
-width: 100%;}
-            
 
 
 
@@ -316,6 +348,25 @@ text-align: center;}
       0px 0px 30px black;}
 
 
+#overons-flexcontainer { display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 60px;
+      margin: 50px;
+      } 
+
+#overons-flexcontainer img { width:600px;
+height:600px}
+
+.overons-fotos {display:flex;
+flex-direction: column;
+gap:30px}
+
+.overons-tekst p {color:#301e15;
+      font-size: 20px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+width: 800px;}
 
 
 
