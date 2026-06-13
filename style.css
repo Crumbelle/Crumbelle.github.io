@@ -1,9 +1,17 @@
 
-body { 
+/*Achtergrond website*/
+body {  
 background-image: url(Abeige.jpg);
 background-attachment: fixed;
 background-size: cover;}
 
+
+
+
+
+/* PAGINA 1-- HOMEPAGINA */
+
+/*Banner bovenaan de website*/
 #banner {
 width: 850px;
 height: 138px;
@@ -11,6 +19,7 @@ display: block;
 margin: 0 auto;
 }
 
+/*Header*/
 #headerbox { background-color: #840d0d; 
   display: flex;
   flex-direction: column;
@@ -19,6 +28,7 @@ margin: 0 auto;
    justify-content: center;
 }
 
+/*Tekst onder logo*/
 #titel-lijn1 { color: #fff8f2;
 margin-top:0%;
 display: flex;
@@ -27,17 +37,20 @@ justify-content:center;
 position: static;
 font-size: 18px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
-#titel-lijn1::before,
 
+/*Decoratieve links en rechts van de tekst*/
+#titel-lijn1::before,
 #titel-lijn1::after { content:""; 
 width: 100px;
 height: 3px;
 background: #f18c1d;}
 
+/*Navigatiemenu*/
 nav {
          border-top: 3px solid  #f18c2d;
    }
 
+/*Lijst in navigatie balk*/
 nav ul {
         list-style-type: none;
         background-color: #840d0d;
@@ -50,6 +63,7 @@ nav ul {
         gap: 30px;
       }
       
+   /*Links in navigatiebalk*/   
       nav ul li a {
         color: #fff8f2;
         text-decoration: none;
@@ -59,28 +73,31 @@ nav ul {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       }
 
+      /*Hover-effect*/
       nav ul li a:hover {
       	background-color: #fff8f2;
         color: #B11818;
       }
-  
+  /*Actieve pagina*/
 #actief {
       	background-color: #6b1616;
         color: #fff8f2;
       }
 
-
+/*Reviews slider*/
 .reviews {overflow: hidden;
 background-color: #fff8f2;
 padding: 20px 0;
 border-top: 1px solid #e5d8cc;}
 
+/*Bewegende reviewtrack*/
 .review-track {
 display: flex;
 padding: 20px 0;
 width: max-content;
 animation: schuif 60s linear infinite;}
 
+/*Individuele review*/
 .review{height: 80px;
       display:flex;
       align-items: center;
@@ -93,6 +110,7 @@ color:#452d21;
       font-size: 25px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
+/*Animatie reviews*/
 @keyframes schuif {
       from{transform: translateX(0%);}
       to{transform: translateX(-50%);}
@@ -101,60 +119,70 @@ color:#452d21;
 
 
 
-
-
-
-
+/*Welkom sectie met tekst en afbeelding*/
 #flex-container1 { display: flex;
       justify-content: space-evenly;
       flex-wrap: wrap;
       } 
-
+/*Afbeelding in welkomsectie*/
 #flex-container1 img { width:900px}
 
+/*Tekstblok van de welkomsectie*/
 .voorpaginatekst {
       width: 40%;
   }
 
+/*Tekst 'Welkom bij'*/
 #welkom {color: #696057;
       font-size: 30px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin-top: 100px; }
+
+/*Tekst 'Bakkerij Crumbelle'*/
 #crumbelle {color: #840d0d;
       font-size: 60px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+/*Beschrijvende welkomsttekst*/
 #welkomtekst {color:#301e15;
       font-size: 20px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       line-height: 1.6;}
 
+
+
+/*Specialiteiten sectie*/
 .specialiteiten {text-align: center;
       background-color: #fff8f2;
       border: 1px solid #dfdede;
       box-shadow: 0 1px 3px rgba(0,0,0,0.1);
       padding: 20px;}
 
+/*Titel van de Specialiteiten*/
 .specialiteiten h2 {margin-bottom: 30px;
       color:#452d21;
       font-size: 30px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
+/*Kopjes van de specialiteiten*/
 .specialiteiten h3 { color: #840d0d;
  font-size: 20px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
-
+/*Tekst onder de specialiteiten*/
 .specialiteiten p {
       color:#301e15;
       font-size: 20px ;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
+/*Container met alle specialiteienblokken*/
  .specialiteitenblok {display:flex;
 justify-content: center;
 gap:20px;
 flex-wrap: wrap;
 }
 
+/*Individueel specialiteitenblok*/
 .blok { 
      text-align: center;
       background-color: #fff8f2;
@@ -174,6 +202,26 @@ box-shadow: 0 1px 3px rgba(0,0,0,0.1);}
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PAGINA 2-- ASSORTIMENT PAGINA */
+
+/*Assortiment Introductie met afbeelding en tekst*/
 #flex-container2 { display: flex;
       justify-content: space-between;
       align-items: center;
@@ -181,34 +229,30 @@ box-shadow: 0 1px 3px rgba(0,0,0,0.1);}
       border: 1px solid #bea488;
       box-shadow: 0 1px 3px #8d7a66;}
 
-
+/*Afbeelding bij assortiment introductie*/
 #flex-container2 img {
     width:600px;
 padding-left: 100px;}
 
+/*Tekstblok van assortiment introductie*/
 .assortimenttekst {width: 40%;
 text-align: left;
 padding-right: 100px;}
 
+/*Titel 'Ons assortiment'*/
 #onsassortiment{
       color: #452d21;
       font-size: 40px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin-bottom: 15px;}
 
+/*Beschrijvende tekst onder de titel*/
 #onsassortiment2{color:#301e15;
       font-size: 20px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       line-height: 1.6;}
 
-
-
-
-
-
-
-
-
+/*Decoratieve lijn bij assortiment titel*/
 #titel-lijn2 { color: #452d21;
 display: flex;
 justify-content: space-between;
@@ -216,44 +260,50 @@ align-items: center;
 font-size: 40px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
+/*Lijnen links en rechts van de titel*/
 #titel-lijn2::before,
-
 #titel-lijn2::after { content:""; 
 width: 1600px;
 height: 3px;
 background: #f18c1d;}
 
-
+/*Container voor alle assortiment catogorieen*/
 .assortiment-flexcontainer {background-color: #fff8f2;
       padding: 20px;}
 
+/*Tekst van een productvak*/
 .keuzevak {text-align:left;
       display:flex;
       justify-content: center;
       gap:20px;
 }
 
+/*Afbeelding van producten*/
  .vak img  { width:300px;
 height: 200px}
 
+/*Producttitel in een productvak*/
 .keuzevak h3 {margin-bottom: 30px;
       color:#452d21;
       font-size: 20px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+/*Productbeschrijving*/
 .keuzevak p {margin-bottom: 30px;
       color:#8b634f;
       font-size: 20px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/*Prijs van een product*/
 .keuzevak b {margin-bottom: 30px;
       color:#b11818;
       font-size: 20px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
+/*Opmaak van een productvak*/
 .vak { background-color: #fff8f2;
 border: 1px solid #c1c1c1;
 border-radius: 8px;
@@ -263,14 +313,20 @@ width: 400px;}
 
 
 
+
+
+/*Speciaal van de week*/
 .weekspecial-flexcontainer{background-color: #840d0d;
 padding:10px;
 margin-top:20px;}
+
+/*Titel 'Speciaal van de week'*/
 .weekspecial-flexcontainer h2 {text-align:center;
         color:#fff8f2;
        font-size: 40px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
+/*Decoratieve lijn bij de titel*/
 #titel-lijn3 {
 display: flex;
 justify-content: space-between;
@@ -278,13 +334,14 @@ align-items: center;
 font-size: 40px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
+/*Decoratieve lijnen links en rechts van de titel 'Speciaal van de week'*/
 #titel-lijn3::before,
-
 #titel-lijn3::after { content:""; 
 width: 1600px;
 height: 3px;
 background: #f18c1d;}
 
+/*Container van de weekspecial*/
 .weekspecial {background:#fff8f2;
 padding:20px;
 display:flex;
@@ -292,26 +349,35 @@ justify-content:space-around;
 align-items:center;
 gap:40px;}
 
+/*Tekstgedeelte van de weekspecial*/
 .weekspecial-tekst {width:35%}
+
+/*Titel van de weeksepcial*/
 .weekspecial-tekst h3 {color: #301e15;  font-size: 60px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
+/*Bescrhijving van de weeksepcial*/
 .weekspecial-tekst p {color:#452d21;;font-size: 30px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;} 
 
+/*Prijs van de wekspecial*/
 .weekspecial-tekst b {color:#b11818;font-size: 30px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
+/*Afbeelding van de weekspecial*/
 .weeksepcial img {display: block;
 width: 300px;}
 
+/*Fotogedeelte van de weekspecial*/
 .weekspecial-foto {width:45%;}
+
+/*Grote afbeelding van de weekspecial*/
 .weekspecial-foto img {width:800px;
 display:block;
 height:auto;}
 
 
-               
+            
 
 
 
@@ -323,6 +389,22 @@ height:auto;}
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* PAGINA 3-- OVER ONS PAGINA */
+
+
+/*Over ons header met achtergrondafbeelding*/
 .overons-header {background-image: url("Aoverons.PNG");
 background-size: cover;
 background-position: center;
@@ -333,6 +415,7 @@ flex-direction: column;
 justify-content: center;
 text-align: center;}
 
+/*Hoofdtitel in de Over ons header*/
 .overons-header b{color:#fff8f2;
       font-size: 40px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -340,6 +423,7 @@ text-align: center;}
       0px 0px 20px black,
       0px 0px 30px black;}
 
+/*Ondertitel in de Over ons header*/
 .overons-header p{color:#fff8f2;
       font-size: 20px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -347,7 +431,7 @@ text-align: center;}
       0px 0px 20px black,
       0px 0px 30px black;}
 
-
+/*Flexcontainer van de Over ons inhoud*/
 #overons-flexcontainer { display: flex;
       justify-content: center;
       align-items: flex-start;
@@ -355,13 +439,16 @@ text-align: center;}
       margin: 50px;
       } 
 
+/*Afbeeldingen in de Over ons sectie*/
 #overons-flexcontainer img { width:600px;
 height:600px}
 
+/*Container met foto's*/
 .overons-fotos {display:flex;
 flex-direction: column;
 gap:30px}
 
+/*Tekstgedeelte van de Over ons pagina*/
 .overons-tekst p {color:#301e15;
       font-size: 20px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -381,6 +468,20 @@ width: 800px;}
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+/* PAGINA 4-- CONTACT PAGINA */
+
+/*Header van de contactpagina*/
 .contact-header {background-image: url("Acontact.PNG");
 background-size: cover;
 background-position: center;
@@ -391,6 +492,7 @@ flex-direction: column;
 justify-content: center;
 text-align: center;}
 
+/*Hoofdtitel contactpagina*/
 .contact-header b{color:#fff8f2;
       font-size: 40px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -398,6 +500,7 @@ text-shadow: 0px 0px 10px black,
       0px 0px 20px black,
       0px 0px 30px black;}
 
+/*Ondertitel contactpagina*/
 .contact-header p{color:#fff8f2;
       font-size: 20px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -405,20 +508,21 @@ text-shadow: 0px 0px 10px black,
       0px 0px 20px black,
       0px 0px 30px black;}
 
-
+/*Contactinformatie container*/
 .contact-container {display: flex;
 gap:20px;
 margin-top: 40px; /*ruimte onder header*/}
 
+/*Contactinformatie links van de website*/
 .contact-links {background-color: #fff8f2;
 border: 1px solid #e5d8cc;
 padding: 20px;
 width:600px;}
 
+/*Contactgegevens*/
 .contactgegevens {
 padding: 30px;
 width: 600px;}
-
 .contactgegevens h2{color: #840d0d;
 margin-bottom: 15px;
 font-size: 20px;
@@ -429,7 +533,7 @@ font-size: 20px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
 
-
+/*Openingstijden*/
 .openingstijden {padding: 30px;
 width: 600px;}
 .openingstijden h2 {color: #840d0d;
@@ -441,7 +545,7 @@ margin: 8px 0;
 font-size: 20px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
-
+/*Contactinformatie rechts van de website*/
 .contact-rechts {display:flex;
       justify-content: space-between;
       align-items: flex-start;
@@ -450,6 +554,7 @@ border: 1px solid #e5d8cc;
 padding: 50px;
 width:1000px;}
 
+/*Contactvak*/
 .contactvak { width: 250px;
       padding:12px;
       border: 1px solid #ddd;;
@@ -458,8 +563,6 @@ width:1000px;}
 margin-bottom: 15px;
 font-size: 20px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
-
-
 .contact-rechts h2 {color: #840d0d;
 margin-bottom: 15px;
 font-size: 20px;
@@ -469,6 +572,8 @@ margin: 8px 0;
 font-size: 20px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
+
+/*Contactformulier en afbeelding*/
 .formulier{width:350px;}
 .broodfoto img {width: 500px;
       height:600px;
@@ -479,6 +584,18 @@ border-radius: 8px;}
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+/*Footer*/
 footer {background-color: #840d0d;
         border: 1px solid #640a0a;
         box-shadow: 0 1px 3px #3f0606;
@@ -486,7 +603,6 @@ footer {background-color: #840d0d;
         padding-top: 0%;
     
       }
-
 #footertekst { color: #fff8f2;
       font-size: 18px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
